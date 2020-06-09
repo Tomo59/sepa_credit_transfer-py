@@ -1176,7 +1176,7 @@ class AccountIdentification4Choice(GeneratedsSuper):
             return True
         else:
             return False
-    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='AccountIdentification4Choice', pretty_print=True):
+    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='AccountIdentification4Choice', pretty_print=True):
         imported_ns_def_ = GenerateDSNamespaceDefs_.get('AccountIdentification4Choice')
         if imported_ns_def_ is not None:
             namespacedef_ = imported_ns_def_
@@ -1201,7 +1201,7 @@ class AccountIdentification4Choice(GeneratedsSuper):
             outfile.write('/>%s' % (eol_, ))
     def exportAttributes(self, outfile, level, already_processed, namespaceprefix_='', name_='AccountIdentification4Choice'):
         pass
-    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='AccountIdentification4Choice', fromsubclass_=False, pretty_print=True):
+    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='AccountIdentification4Choice', fromsubclass_=False, pretty_print=True):
         if pretty_print:
             eol_ = '\n'
         else:
@@ -1324,7 +1324,7 @@ class AccountSchemeName1Choice(GeneratedsSuper):
             return True
         else:
             return False
-    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='AccountSchemeName1Choice', pretty_print=True):
+    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='AccountSchemeName1Choice', pretty_print=True):
         imported_ns_def_ = GenerateDSNamespaceDefs_.get('AccountSchemeName1Choice')
         if imported_ns_def_ is not None:
             namespacedef_ = imported_ns_def_
@@ -1349,7 +1349,7 @@ class AccountSchemeName1Choice(GeneratedsSuper):
             outfile.write('/>%s' % (eol_, ))
     def exportAttributes(self, outfile, level, already_processed, namespaceprefix_='', name_='AccountSchemeName1Choice'):
         pass
-    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='AccountSchemeName1Choice', fromsubclass_=False, pretty_print=True):
+    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='AccountSchemeName1Choice', fromsubclass_=False, pretty_print=True):
         if pretty_print:
             eol_ = '\n'
         else:
@@ -1544,7 +1544,7 @@ class AmountType3Choice(GeneratedsSuper):
             return True
         else:
             return False
-    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='AmountType3Choice', pretty_print=True):
+    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='AmountType3Choice', pretty_print=True):
         imported_ns_def_ = GenerateDSNamespaceDefs_.get('AmountType3Choice')
         if imported_ns_def_ is not None:
             namespacedef_ = imported_ns_def_
@@ -1569,7 +1569,7 @@ class AmountType3Choice(GeneratedsSuper):
             outfile.write('/>%s' % (eol_, ))
     def exportAttributes(self, outfile, level, already_processed, namespaceprefix_='', name_='AmountType3Choice'):
         pass
-    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='AmountType3Choice', fromsubclass_=False, pretty_print=True):
+    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='AmountType3Choice', fromsubclass_=False, pretty_print=True):
         if pretty_print:
             eol_ = '\n'
         else:
@@ -1686,7 +1686,7 @@ class Authorisation1Choice(GeneratedsSuper):
             return True
         else:
             return False
-    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='Authorisation1Choice', pretty_print=True):
+    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='Authorisation1Choice', pretty_print=True):
         imported_ns_def_ = GenerateDSNamespaceDefs_.get('Authorisation1Choice')
         if imported_ns_def_ is not None:
             namespacedef_ = imported_ns_def_
@@ -1711,7 +1711,7 @@ class Authorisation1Choice(GeneratedsSuper):
             outfile.write('/>%s' % (eol_, ))
     def exportAttributes(self, outfile, level, already_processed, namespaceprefix_='', name_='Authorisation1Choice'):
         pass
-    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='Authorisation1Choice', fromsubclass_=False, pretty_print=True):
+    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='Authorisation1Choice', fromsubclass_=False, pretty_print=True):
         if pretty_print:
             eol_ = '\n'
         else:
@@ -1802,7 +1802,7 @@ class BranchAndFinancialInstitutionIdentification4(GeneratedsSuper):
             return True
         else:
             return False
-    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='BranchAndFinancialInstitutionIdentification4', pretty_print=True):
+    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='BranchAndFinancialInstitutionIdentification4', pretty_print=True):
         imported_ns_def_ = GenerateDSNamespaceDefs_.get('BranchAndFinancialInstitutionIdentification4')
         if imported_ns_def_ is not None:
             namespacedef_ = imported_ns_def_
@@ -1827,7 +1827,7 @@ class BranchAndFinancialInstitutionIdentification4(GeneratedsSuper):
             outfile.write('/>%s' % (eol_, ))
     def exportAttributes(self, outfile, level, already_processed, namespaceprefix_='', name_='BranchAndFinancialInstitutionIdentification4'):
         pass
-    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='BranchAndFinancialInstitutionIdentification4', fromsubclass_=False, pretty_print=True):
+    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='BranchAndFinancialInstitutionIdentification4', fromsubclass_=False, pretty_print=True):
         if pretty_print:
             eol_ = '\n'
         else:
@@ -1953,7 +1953,7 @@ class BranchData2(GeneratedsSuper):
             return True
         else:
             return False
-    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='BranchData2', pretty_print=True):
+    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='BranchData2', pretty_print=True):
         imported_ns_def_ = GenerateDSNamespaceDefs_.get('BranchData2')
         if imported_ns_def_ is not None:
             namespacedef_ = imported_ns_def_
@@ -1978,7 +1978,7 @@ class BranchData2(GeneratedsSuper):
             outfile.write('/>%s' % (eol_, ))
     def exportAttributes(self, outfile, level, already_processed, namespaceprefix_='', name_='BranchData2'):
         pass
-    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='BranchData2', fromsubclass_=False, pretty_print=True):
+    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='BranchData2', fromsubclass_=False, pretty_print=True):
         if pretty_print:
             eol_ = '\n'
         else:
@@ -2124,7 +2124,7 @@ class CashAccount16(GeneratedsSuper):
             return True
         else:
             return False
-    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='CashAccount16', pretty_print=True):
+    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='CashAccount16', pretty_print=True):
         imported_ns_def_ = GenerateDSNamespaceDefs_.get('CashAccount16')
         if imported_ns_def_ is not None:
             namespacedef_ = imported_ns_def_
@@ -2149,7 +2149,7 @@ class CashAccount16(GeneratedsSuper):
             outfile.write('/>%s' % (eol_, ))
     def exportAttributes(self, outfile, level, already_processed, namespaceprefix_='', name_='CashAccount16'):
         pass
-    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='CashAccount16', fromsubclass_=False, pretty_print=True):
+    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='CashAccount16', fromsubclass_=False, pretty_print=True):
         if pretty_print:
             eol_ = '\n'
         else:
@@ -2290,7 +2290,7 @@ class CashAccountType2(GeneratedsSuper):
             return True
         else:
             return False
-    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='CashAccountType2', pretty_print=True):
+    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='CashAccountType2', pretty_print=True):
         imported_ns_def_ = GenerateDSNamespaceDefs_.get('CashAccountType2')
         if imported_ns_def_ is not None:
             namespacedef_ = imported_ns_def_
@@ -2315,7 +2315,7 @@ class CashAccountType2(GeneratedsSuper):
             outfile.write('/>%s' % (eol_, ))
     def exportAttributes(self, outfile, level, already_processed, namespaceprefix_='', name_='CashAccountType2'):
         pass
-    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='CashAccountType2', fromsubclass_=False, pretty_print=True):
+    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='CashAccountType2', fromsubclass_=False, pretty_print=True):
         if pretty_print:
             eol_ = '\n'
         else:
@@ -2442,7 +2442,7 @@ class CategoryPurpose1Choice(GeneratedsSuper):
             return True
         else:
             return False
-    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='CategoryPurpose1Choice', pretty_print=True):
+    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='CategoryPurpose1Choice', pretty_print=True):
         imported_ns_def_ = GenerateDSNamespaceDefs_.get('CategoryPurpose1Choice')
         if imported_ns_def_ is not None:
             namespacedef_ = imported_ns_def_
@@ -2467,7 +2467,7 @@ class CategoryPurpose1Choice(GeneratedsSuper):
             outfile.write('/>%s' % (eol_, ))
     def exportAttributes(self, outfile, level, already_processed, namespaceprefix_='', name_='CategoryPurpose1Choice'):
         pass
-    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='CategoryPurpose1Choice', fromsubclass_=False, pretty_print=True):
+    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='CategoryPurpose1Choice', fromsubclass_=False, pretty_print=True):
         if pretty_print:
             eol_ = '\n'
         else:
@@ -2697,7 +2697,7 @@ class Cheque6(GeneratedsSuper):
             return True
         else:
             return False
-    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='Cheque6', pretty_print=True):
+    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='Cheque6', pretty_print=True):
         imported_ns_def_ = GenerateDSNamespaceDefs_.get('Cheque6')
         if imported_ns_def_ is not None:
             namespacedef_ = imported_ns_def_
@@ -2722,7 +2722,7 @@ class Cheque6(GeneratedsSuper):
             outfile.write('/>%s' % (eol_, ))
     def exportAttributes(self, outfile, level, already_processed, namespaceprefix_='', name_='Cheque6'):
         pass
-    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='Cheque6', fromsubclass_=False, pretty_print=True):
+    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='Cheque6', fromsubclass_=False, pretty_print=True):
         if pretty_print:
             eol_ = '\n'
         else:
@@ -2942,7 +2942,7 @@ class ChequeDeliveryMethod1Choice(GeneratedsSuper):
             return True
         else:
             return False
-    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='ChequeDeliveryMethod1Choice', pretty_print=True):
+    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='ChequeDeliveryMethod1Choice', pretty_print=True):
         imported_ns_def_ = GenerateDSNamespaceDefs_.get('ChequeDeliveryMethod1Choice')
         if imported_ns_def_ is not None:
             namespacedef_ = imported_ns_def_
@@ -2967,7 +2967,7 @@ class ChequeDeliveryMethod1Choice(GeneratedsSuper):
             outfile.write('/>%s' % (eol_, ))
     def exportAttributes(self, outfile, level, already_processed, namespaceprefix_='', name_='ChequeDeliveryMethod1Choice'):
         pass
-    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='ChequeDeliveryMethod1Choice', fromsubclass_=False, pretty_print=True):
+    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='ChequeDeliveryMethod1Choice', fromsubclass_=False, pretty_print=True):
         if pretty_print:
             eol_ = '\n'
         else:
@@ -3094,7 +3094,7 @@ class ClearingSystemIdentification2Choice(GeneratedsSuper):
             return True
         else:
             return False
-    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='ClearingSystemIdentification2Choice', pretty_print=True):
+    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='ClearingSystemIdentification2Choice', pretty_print=True):
         imported_ns_def_ = GenerateDSNamespaceDefs_.get('ClearingSystemIdentification2Choice')
         if imported_ns_def_ is not None:
             namespacedef_ = imported_ns_def_
@@ -3119,7 +3119,7 @@ class ClearingSystemIdentification2Choice(GeneratedsSuper):
             outfile.write('/>%s' % (eol_, ))
     def exportAttributes(self, outfile, level, already_processed, namespaceprefix_='', name_='ClearingSystemIdentification2Choice'):
         pass
-    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='ClearingSystemIdentification2Choice', fromsubclass_=False, pretty_print=True):
+    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='ClearingSystemIdentification2Choice', fromsubclass_=False, pretty_print=True):
         if pretty_print:
             eol_ = '\n'
         else:
@@ -3228,7 +3228,7 @@ class ClearingSystemMemberIdentification2(GeneratedsSuper):
             return True
         else:
             return False
-    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='ClearingSystemMemberIdentification2', pretty_print=True):
+    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='ClearingSystemMemberIdentification2', pretty_print=True):
         imported_ns_def_ = GenerateDSNamespaceDefs_.get('ClearingSystemMemberIdentification2')
         if imported_ns_def_ is not None:
             namespacedef_ = imported_ns_def_
@@ -3253,7 +3253,7 @@ class ClearingSystemMemberIdentification2(GeneratedsSuper):
             outfile.write('/>%s' % (eol_, ))
     def exportAttributes(self, outfile, level, already_processed, namespaceprefix_='', name_='ClearingSystemMemberIdentification2'):
         pass
-    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='ClearingSystemMemberIdentification2', fromsubclass_=False, pretty_print=True):
+    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='ClearingSystemMemberIdentification2', fromsubclass_=False, pretty_print=True):
         if pretty_print:
             eol_ = '\n'
         else:
@@ -3462,7 +3462,7 @@ class ContactDetails2(GeneratedsSuper):
             return True
         else:
             return False
-    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='ContactDetails2', pretty_print=True):
+    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='ContactDetails2', pretty_print=True):
         imported_ns_def_ = GenerateDSNamespaceDefs_.get('ContactDetails2')
         if imported_ns_def_ is not None:
             namespacedef_ = imported_ns_def_
@@ -3487,7 +3487,7 @@ class ContactDetails2(GeneratedsSuper):
             outfile.write('/>%s' % (eol_, ))
     def exportAttributes(self, outfile, level, already_processed, namespaceprefix_='', name_='ContactDetails2'):
         pass
-    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='ContactDetails2', fromsubclass_=False, pretty_print=True):
+    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='ContactDetails2', fromsubclass_=False, pretty_print=True):
         if pretty_print:
             eol_ = '\n'
         else:
@@ -3860,7 +3860,7 @@ class CreditTransferTransactionInformation10(GeneratedsSuper):
             return True
         else:
             return False
-    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='CreditTransferTransactionInformation10', pretty_print=True):
+    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='CreditTransferTransactionInformation10', pretty_print=True):
         imported_ns_def_ = GenerateDSNamespaceDefs_.get('CreditTransferTransactionInformation10')
         if imported_ns_def_ is not None:
             namespacedef_ = imported_ns_def_
@@ -3885,7 +3885,7 @@ class CreditTransferTransactionInformation10(GeneratedsSuper):
             outfile.write('/>%s' % (eol_, ))
     def exportAttributes(self, outfile, level, already_processed, namespaceprefix_='', name_='CreditTransferTransactionInformation10'):
         pass
-    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='CreditTransferTransactionInformation10', fromsubclass_=False, pretty_print=True):
+    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='CreditTransferTransactionInformation10', fromsubclass_=False, pretty_print=True):
         if pretty_print:
             eol_ = '\n'
         else:
@@ -4178,7 +4178,7 @@ class CreditorReferenceInformation2(GeneratedsSuper):
             return True
         else:
             return False
-    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='CreditorReferenceInformation2', pretty_print=True):
+    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='CreditorReferenceInformation2', pretty_print=True):
         imported_ns_def_ = GenerateDSNamespaceDefs_.get('CreditorReferenceInformation2')
         if imported_ns_def_ is not None:
             namespacedef_ = imported_ns_def_
@@ -4203,7 +4203,7 @@ class CreditorReferenceInformation2(GeneratedsSuper):
             outfile.write('/>%s' % (eol_, ))
     def exportAttributes(self, outfile, level, already_processed, namespaceprefix_='', name_='CreditorReferenceInformation2'):
         pass
-    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='CreditorReferenceInformation2', fromsubclass_=False, pretty_print=True):
+    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='CreditorReferenceInformation2', fromsubclass_=False, pretty_print=True):
         if pretty_print:
             eol_ = '\n'
         else:
@@ -4324,7 +4324,7 @@ class CreditorReferenceType1Choice(GeneratedsSuper):
             return True
         else:
             return False
-    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='CreditorReferenceType1Choice', pretty_print=True):
+    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='CreditorReferenceType1Choice', pretty_print=True):
         imported_ns_def_ = GenerateDSNamespaceDefs_.get('CreditorReferenceType1Choice')
         if imported_ns_def_ is not None:
             namespacedef_ = imported_ns_def_
@@ -4349,7 +4349,7 @@ class CreditorReferenceType1Choice(GeneratedsSuper):
             outfile.write('/>%s' % (eol_, ))
     def exportAttributes(self, outfile, level, already_processed, namespaceprefix_='', name_='CreditorReferenceType1Choice'):
         pass
-    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='CreditorReferenceType1Choice', fromsubclass_=False, pretty_print=True):
+    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='CreditorReferenceType1Choice', fromsubclass_=False, pretty_print=True):
         if pretty_print:
             eol_ = '\n'
         else:
@@ -4458,7 +4458,7 @@ class CreditorReferenceType2(GeneratedsSuper):
             return True
         else:
             return False
-    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='CreditorReferenceType2', pretty_print=True):
+    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='CreditorReferenceType2', pretty_print=True):
         imported_ns_def_ = GenerateDSNamespaceDefs_.get('CreditorReferenceType2')
         if imported_ns_def_ is not None:
             namespacedef_ = imported_ns_def_
@@ -4483,7 +4483,7 @@ class CreditorReferenceType2(GeneratedsSuper):
             outfile.write('/>%s' % (eol_, ))
     def exportAttributes(self, outfile, level, already_processed, namespaceprefix_='', name_='CreditorReferenceType2'):
         pass
-    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='CreditorReferenceType2', fromsubclass_=False, pretty_print=True):
+    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='CreditorReferenceType2', fromsubclass_=False, pretty_print=True):
         if pretty_print:
             eol_ = '\n'
         else:
@@ -4579,7 +4579,7 @@ class CustomerCreditTransferInitiationV03(GeneratedsSuper):
             return True
         else:
             return False
-    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='CustomerCreditTransferInitiationV03', pretty_print=True):
+    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='CustomerCreditTransferInitiationV03', pretty_print=True):
         imported_ns_def_ = GenerateDSNamespaceDefs_.get('CustomerCreditTransferInitiationV03')
         if imported_ns_def_ is not None:
             namespacedef_ = imported_ns_def_
@@ -4604,7 +4604,7 @@ class CustomerCreditTransferInitiationV03(GeneratedsSuper):
             outfile.write('/>%s' % (eol_, ))
     def exportAttributes(self, outfile, level, already_processed, namespaceprefix_='', name_='CustomerCreditTransferInitiationV03'):
         pass
-    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='CustomerCreditTransferInitiationV03', fromsubclass_=False, pretty_print=True):
+    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='CustomerCreditTransferInitiationV03', fromsubclass_=False, pretty_print=True):
         if pretty_print:
             eol_ = '\n'
         else:
@@ -4749,7 +4749,7 @@ class DateAndPlaceOfBirth(GeneratedsSuper):
             return True
         else:
             return False
-    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='DateAndPlaceOfBirth', pretty_print=True):
+    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='DateAndPlaceOfBirth', pretty_print=True):
         imported_ns_def_ = GenerateDSNamespaceDefs_.get('DateAndPlaceOfBirth')
         if imported_ns_def_ is not None:
             namespacedef_ = imported_ns_def_
@@ -4774,7 +4774,7 @@ class DateAndPlaceOfBirth(GeneratedsSuper):
             outfile.write('/>%s' % (eol_, ))
     def exportAttributes(self, outfile, level, already_processed, namespaceprefix_='', name_='DateAndPlaceOfBirth'):
         pass
-    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='DateAndPlaceOfBirth', fromsubclass_=False, pretty_print=True):
+    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='DateAndPlaceOfBirth', fromsubclass_=False, pretty_print=True):
         if pretty_print:
             eol_ = '\n'
         else:
@@ -4906,7 +4906,7 @@ class DatePeriodDetails(GeneratedsSuper):
             return True
         else:
             return False
-    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='DatePeriodDetails', pretty_print=True):
+    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='DatePeriodDetails', pretty_print=True):
         imported_ns_def_ = GenerateDSNamespaceDefs_.get('DatePeriodDetails')
         if imported_ns_def_ is not None:
             namespacedef_ = imported_ns_def_
@@ -4931,7 +4931,7 @@ class DatePeriodDetails(GeneratedsSuper):
             outfile.write('/>%s' % (eol_, ))
     def exportAttributes(self, outfile, level, already_processed, namespaceprefix_='', name_='DatePeriodDetails'):
         pass
-    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='DatePeriodDetails', fromsubclass_=False, pretty_print=True):
+    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='DatePeriodDetails', fromsubclass_=False, pretty_print=True):
         if pretty_print:
             eol_ = '\n'
         else:
@@ -5013,7 +5013,7 @@ class Document(GeneratedsSuper):
             return True
         else:
             return False
-    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='Document', pretty_print=True):
+    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='Document', pretty_print=True):
         imported_ns_def_ = GenerateDSNamespaceDefs_.get('Document')
         if imported_ns_def_ is not None:
             namespacedef_ = imported_ns_def_
@@ -5038,7 +5038,7 @@ class Document(GeneratedsSuper):
             outfile.write('/>%s' % (eol_, ))
     def exportAttributes(self, outfile, level, already_processed, namespaceprefix_='', name_='Document'):
         pass
-    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='Document', fromsubclass_=False, pretty_print=True):
+    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='Document', fromsubclass_=False, pretty_print=True):
         if pretty_print:
             eol_ = '\n'
         else:
@@ -5179,7 +5179,7 @@ class DocumentAdjustment1(GeneratedsSuper):
             return True
         else:
             return False
-    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='DocumentAdjustment1', pretty_print=True):
+    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='DocumentAdjustment1', pretty_print=True):
         imported_ns_def_ = GenerateDSNamespaceDefs_.get('DocumentAdjustment1')
         if imported_ns_def_ is not None:
             namespacedef_ = imported_ns_def_
@@ -5204,7 +5204,7 @@ class DocumentAdjustment1(GeneratedsSuper):
             outfile.write('/>%s' % (eol_, ))
     def exportAttributes(self, outfile, level, already_processed, namespaceprefix_='', name_='DocumentAdjustment1'):
         pass
-    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='DocumentAdjustment1', fromsubclass_=False, pretty_print=True):
+    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='DocumentAdjustment1', fromsubclass_=False, pretty_print=True):
         if pretty_print:
             eol_ = '\n'
         else:
@@ -5330,7 +5330,7 @@ class EquivalentAmount2(GeneratedsSuper):
             return True
         else:
             return False
-    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='EquivalentAmount2', pretty_print=True):
+    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='EquivalentAmount2', pretty_print=True):
         imported_ns_def_ = GenerateDSNamespaceDefs_.get('EquivalentAmount2')
         if imported_ns_def_ is not None:
             namespacedef_ = imported_ns_def_
@@ -5355,7 +5355,7 @@ class EquivalentAmount2(GeneratedsSuper):
             outfile.write('/>%s' % (eol_, ))
     def exportAttributes(self, outfile, level, already_processed, namespaceprefix_='', name_='EquivalentAmount2'):
         pass
-    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='EquivalentAmount2', fromsubclass_=False, pretty_print=True):
+    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='EquivalentAmount2', fromsubclass_=False, pretty_print=True):
         if pretty_print:
             eol_ = '\n'
         else:
@@ -5497,7 +5497,7 @@ class ExchangeRateInformation1(GeneratedsSuper):
             return True
         else:
             return False
-    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='ExchangeRateInformation1', pretty_print=True):
+    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='ExchangeRateInformation1', pretty_print=True):
         imported_ns_def_ = GenerateDSNamespaceDefs_.get('ExchangeRateInformation1')
         if imported_ns_def_ is not None:
             namespacedef_ = imported_ns_def_
@@ -5522,7 +5522,7 @@ class ExchangeRateInformation1(GeneratedsSuper):
             outfile.write('/>%s' % (eol_, ))
     def exportAttributes(self, outfile, level, already_processed, namespaceprefix_='', name_='ExchangeRateInformation1'):
         pass
-    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='ExchangeRateInformation1', fromsubclass_=False, pretty_print=True):
+    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='ExchangeRateInformation1', fromsubclass_=False, pretty_print=True):
         if pretty_print:
             eol_ = '\n'
         else:
@@ -5661,7 +5661,7 @@ class FinancialIdentificationSchemeName1Choice(GeneratedsSuper):
             return True
         else:
             return False
-    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='FinancialIdentificationSchemeName1Choice', pretty_print=True):
+    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='FinancialIdentificationSchemeName1Choice', pretty_print=True):
         imported_ns_def_ = GenerateDSNamespaceDefs_.get('FinancialIdentificationSchemeName1Choice')
         if imported_ns_def_ is not None:
             namespacedef_ = imported_ns_def_
@@ -5686,7 +5686,7 @@ class FinancialIdentificationSchemeName1Choice(GeneratedsSuper):
             outfile.write('/>%s' % (eol_, ))
     def exportAttributes(self, outfile, level, already_processed, namespaceprefix_='', name_='FinancialIdentificationSchemeName1Choice'):
         pass
-    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='FinancialIdentificationSchemeName1Choice', fromsubclass_=False, pretty_print=True):
+    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='FinancialIdentificationSchemeName1Choice', fromsubclass_=False, pretty_print=True):
         if pretty_print:
             eol_ = '\n'
         else:
@@ -5831,7 +5831,7 @@ class FinancialInstitutionIdentification7(GeneratedsSuper):
             return True
         else:
             return False
-    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='FinancialInstitutionIdentification7', pretty_print=True):
+    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='FinancialInstitutionIdentification7', pretty_print=True):
         imported_ns_def_ = GenerateDSNamespaceDefs_.get('FinancialInstitutionIdentification7')
         if imported_ns_def_ is not None:
             namespacedef_ = imported_ns_def_
@@ -5856,7 +5856,7 @@ class FinancialInstitutionIdentification7(GeneratedsSuper):
             outfile.write('/>%s' % (eol_, ))
     def exportAttributes(self, outfile, level, already_processed, namespaceprefix_='', name_='FinancialInstitutionIdentification7'):
         pass
-    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='FinancialInstitutionIdentification7', fromsubclass_=False, pretty_print=True):
+    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='FinancialInstitutionIdentification7', fromsubclass_=False, pretty_print=True):
         if pretty_print:
             eol_ = '\n'
         else:
@@ -6014,7 +6014,7 @@ class GenericAccountIdentification1(GeneratedsSuper):
             return True
         else:
             return False
-    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='GenericAccountIdentification1', pretty_print=True):
+    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='GenericAccountIdentification1', pretty_print=True):
         imported_ns_def_ = GenerateDSNamespaceDefs_.get('GenericAccountIdentification1')
         if imported_ns_def_ is not None:
             namespacedef_ = imported_ns_def_
@@ -6039,7 +6039,7 @@ class GenericAccountIdentification1(GeneratedsSuper):
             outfile.write('/>%s' % (eol_, ))
     def exportAttributes(self, outfile, level, already_processed, namespaceprefix_='', name_='GenericAccountIdentification1'):
         pass
-    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='GenericAccountIdentification1', fromsubclass_=False, pretty_print=True):
+    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='GenericAccountIdentification1', fromsubclass_=False, pretty_print=True):
         if pretty_print:
             eol_ = '\n'
         else:
@@ -6164,7 +6164,7 @@ class GenericFinancialIdentification1(GeneratedsSuper):
             return True
         else:
             return False
-    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='GenericFinancialIdentification1', pretty_print=True):
+    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='GenericFinancialIdentification1', pretty_print=True):
         imported_ns_def_ = GenerateDSNamespaceDefs_.get('GenericFinancialIdentification1')
         if imported_ns_def_ is not None:
             namespacedef_ = imported_ns_def_
@@ -6189,7 +6189,7 @@ class GenericFinancialIdentification1(GeneratedsSuper):
             outfile.write('/>%s' % (eol_, ))
     def exportAttributes(self, outfile, level, already_processed, namespaceprefix_='', name_='GenericFinancialIdentification1'):
         pass
-    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='GenericFinancialIdentification1', fromsubclass_=False, pretty_print=True):
+    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='GenericFinancialIdentification1', fromsubclass_=False, pretty_print=True):
         if pretty_print:
             eol_ = '\n'
         else:
@@ -6314,7 +6314,7 @@ class GenericOrganisationIdentification1(GeneratedsSuper):
             return True
         else:
             return False
-    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='GenericOrganisationIdentification1', pretty_print=True):
+    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='GenericOrganisationIdentification1', pretty_print=True):
         imported_ns_def_ = GenerateDSNamespaceDefs_.get('GenericOrganisationIdentification1')
         if imported_ns_def_ is not None:
             namespacedef_ = imported_ns_def_
@@ -6339,7 +6339,7 @@ class GenericOrganisationIdentification1(GeneratedsSuper):
             outfile.write('/>%s' % (eol_, ))
     def exportAttributes(self, outfile, level, already_processed, namespaceprefix_='', name_='GenericOrganisationIdentification1'):
         pass
-    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='GenericOrganisationIdentification1', fromsubclass_=False, pretty_print=True):
+    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='GenericOrganisationIdentification1', fromsubclass_=False, pretty_print=True):
         if pretty_print:
             eol_ = '\n'
         else:
@@ -6464,7 +6464,7 @@ class GenericPersonIdentification1(GeneratedsSuper):
             return True
         else:
             return False
-    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='GenericPersonIdentification1', pretty_print=True):
+    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='GenericPersonIdentification1', pretty_print=True):
         imported_ns_def_ = GenerateDSNamespaceDefs_.get('GenericPersonIdentification1')
         if imported_ns_def_ is not None:
             namespacedef_ = imported_ns_def_
@@ -6489,7 +6489,7 @@ class GenericPersonIdentification1(GeneratedsSuper):
             outfile.write('/>%s' % (eol_, ))
     def exportAttributes(self, outfile, level, already_processed, namespaceprefix_='', name_='GenericPersonIdentification1'):
         pass
-    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='GenericPersonIdentification1', fromsubclass_=False, pretty_print=True):
+    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='GenericPersonIdentification1', fromsubclass_=False, pretty_print=True):
         if pretty_print:
             eol_ = '\n'
         else:
@@ -6693,7 +6693,7 @@ class GroupHeader32(GeneratedsSuper):
             return True
         else:
             return False
-    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='GroupHeader32', pretty_print=True):
+    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='GroupHeader32', pretty_print=True):
         imported_ns_def_ = GenerateDSNamespaceDefs_.get('GroupHeader32')
         if imported_ns_def_ is not None:
             namespacedef_ = imported_ns_def_
@@ -6718,7 +6718,7 @@ class GroupHeader32(GeneratedsSuper):
             outfile.write('/>%s' % (eol_, ))
     def exportAttributes(self, outfile, level, already_processed, namespaceprefix_='', name_='GroupHeader32'):
         pass
-    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='GroupHeader32', fromsubclass_=False, pretty_print=True):
+    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='GroupHeader32', fromsubclass_=False, pretty_print=True):
         if pretty_print:
             eol_ = '\n'
         else:
@@ -6890,7 +6890,7 @@ class InstructionForCreditorAgent1(GeneratedsSuper):
             return True
         else:
             return False
-    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='InstructionForCreditorAgent1', pretty_print=True):
+    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='InstructionForCreditorAgent1', pretty_print=True):
         imported_ns_def_ = GenerateDSNamespaceDefs_.get('InstructionForCreditorAgent1')
         if imported_ns_def_ is not None:
             namespacedef_ = imported_ns_def_
@@ -6915,7 +6915,7 @@ class InstructionForCreditorAgent1(GeneratedsSuper):
             outfile.write('/>%s' % (eol_, ))
     def exportAttributes(self, outfile, level, already_processed, namespaceprefix_='', name_='InstructionForCreditorAgent1'):
         pass
-    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='InstructionForCreditorAgent1', fromsubclass_=False, pretty_print=True):
+    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='InstructionForCreditorAgent1', fromsubclass_=False, pretty_print=True):
         if pretty_print:
             eol_ = '\n'
         else:
@@ -7042,7 +7042,7 @@ class LocalInstrument2Choice(GeneratedsSuper):
             return True
         else:
             return False
-    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='LocalInstrument2Choice', pretty_print=True):
+    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='LocalInstrument2Choice', pretty_print=True):
         imported_ns_def_ = GenerateDSNamespaceDefs_.get('LocalInstrument2Choice')
         if imported_ns_def_ is not None:
             namespacedef_ = imported_ns_def_
@@ -7067,7 +7067,7 @@ class LocalInstrument2Choice(GeneratedsSuper):
             outfile.write('/>%s' % (eol_, ))
     def exportAttributes(self, outfile, level, already_processed, namespaceprefix_='', name_='LocalInstrument2Choice'):
         pass
-    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='LocalInstrument2Choice', fromsubclass_=False, pretty_print=True):
+    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='LocalInstrument2Choice', fromsubclass_=False, pretty_print=True):
         if pretty_print:
             eol_ = '\n'
         else:
@@ -7176,7 +7176,7 @@ class NameAndAddress10(GeneratedsSuper):
             return True
         else:
             return False
-    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='NameAndAddress10', pretty_print=True):
+    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='NameAndAddress10', pretty_print=True):
         imported_ns_def_ = GenerateDSNamespaceDefs_.get('NameAndAddress10')
         if imported_ns_def_ is not None:
             namespacedef_ = imported_ns_def_
@@ -7201,7 +7201,7 @@ class NameAndAddress10(GeneratedsSuper):
             outfile.write('/>%s' % (eol_, ))
     def exportAttributes(self, outfile, level, already_processed, namespaceprefix_='', name_='NameAndAddress10'):
         pass
-    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='NameAndAddress10', fromsubclass_=False, pretty_print=True):
+    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='NameAndAddress10', fromsubclass_=False, pretty_print=True):
         if pretty_print:
             eol_ = '\n'
         else:
@@ -7312,7 +7312,7 @@ class OrganisationIdentification4(GeneratedsSuper):
             return True
         else:
             return False
-    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='OrganisationIdentification4', pretty_print=True):
+    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='OrganisationIdentification4', pretty_print=True):
         imported_ns_def_ = GenerateDSNamespaceDefs_.get('OrganisationIdentification4')
         if imported_ns_def_ is not None:
             namespacedef_ = imported_ns_def_
@@ -7337,7 +7337,7 @@ class OrganisationIdentification4(GeneratedsSuper):
             outfile.write('/>%s' % (eol_, ))
     def exportAttributes(self, outfile, level, already_processed, namespaceprefix_='', name_='OrganisationIdentification4'):
         pass
-    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='OrganisationIdentification4', fromsubclass_=False, pretty_print=True):
+    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='OrganisationIdentification4', fromsubclass_=False, pretty_print=True):
         if pretty_print:
             eol_ = '\n'
         else:
@@ -7460,7 +7460,7 @@ class OrganisationIdentificationSchemeName1Choice(GeneratedsSuper):
             return True
         else:
             return False
-    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='OrganisationIdentificationSchemeName1Choice', pretty_print=True):
+    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='OrganisationIdentificationSchemeName1Choice', pretty_print=True):
         imported_ns_def_ = GenerateDSNamespaceDefs_.get('OrganisationIdentificationSchemeName1Choice')
         if imported_ns_def_ is not None:
             namespacedef_ = imported_ns_def_
@@ -7485,7 +7485,7 @@ class OrganisationIdentificationSchemeName1Choice(GeneratedsSuper):
             outfile.write('/>%s' % (eol_, ))
     def exportAttributes(self, outfile, level, already_processed, namespaceprefix_='', name_='OrganisationIdentificationSchemeName1Choice'):
         pass
-    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='OrganisationIdentificationSchemeName1Choice', fromsubclass_=False, pretty_print=True):
+    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='OrganisationIdentificationSchemeName1Choice', fromsubclass_=False, pretty_print=True):
         if pretty_print:
             eol_ = '\n'
         else:
@@ -7576,7 +7576,7 @@ class Party6Choice(GeneratedsSuper):
             return True
         else:
             return False
-    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='Party6Choice', pretty_print=True):
+    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='Party6Choice', pretty_print=True):
         imported_ns_def_ = GenerateDSNamespaceDefs_.get('Party6Choice')
         if imported_ns_def_ is not None:
             namespacedef_ = imported_ns_def_
@@ -7601,7 +7601,7 @@ class Party6Choice(GeneratedsSuper):
             outfile.write('/>%s' % (eol_, ))
     def exportAttributes(self, outfile, level, already_processed, namespaceprefix_='', name_='Party6Choice'):
         pass
-    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='Party6Choice', fromsubclass_=False, pretty_print=True):
+    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='Party6Choice', fromsubclass_=False, pretty_print=True):
         if pretty_print:
             eol_ = '\n'
         else:
@@ -7738,7 +7738,7 @@ class PartyIdentification32(GeneratedsSuper):
             return True
         else:
             return False
-    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='PartyIdentification32', pretty_print=True):
+    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='PartyIdentification32', pretty_print=True):
         imported_ns_def_ = GenerateDSNamespaceDefs_.get('PartyIdentification32')
         if imported_ns_def_ is not None:
             namespacedef_ = imported_ns_def_
@@ -7763,7 +7763,7 @@ class PartyIdentification32(GeneratedsSuper):
             outfile.write('/>%s' % (eol_, ))
     def exportAttributes(self, outfile, level, already_processed, namespaceprefix_='', name_='PartyIdentification32'):
         pass
-    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='PartyIdentification32', fromsubclass_=False, pretty_print=True):
+    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='PartyIdentification32', fromsubclass_=False, pretty_print=True):
         if pretty_print:
             eol_ = '\n'
         else:
@@ -7897,7 +7897,7 @@ class PaymentIdentification1(GeneratedsSuper):
             return True
         else:
             return False
-    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='PaymentIdentification1', pretty_print=True):
+    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='PaymentIdentification1', pretty_print=True):
         imported_ns_def_ = GenerateDSNamespaceDefs_.get('PaymentIdentification1')
         if imported_ns_def_ is not None:
             namespacedef_ = imported_ns_def_
@@ -7922,7 +7922,7 @@ class PaymentIdentification1(GeneratedsSuper):
             outfile.write('/>%s' % (eol_, ))
     def exportAttributes(self, outfile, level, already_processed, namespaceprefix_='', name_='PaymentIdentification1'):
         pass
-    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='PaymentIdentification1', fromsubclass_=False, pretty_print=True):
+    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='PaymentIdentification1', fromsubclass_=False, pretty_print=True):
         if pretty_print:
             eol_ = '\n'
         else:
@@ -8231,7 +8231,7 @@ class PaymentInstructionInformation3(GeneratedsSuper):
             return True
         else:
             return False
-    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='PaymentInstructionInformation3', pretty_print=True):
+    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='PaymentInstructionInformation3', pretty_print=True):
         imported_ns_def_ = GenerateDSNamespaceDefs_.get('PaymentInstructionInformation3')
         if imported_ns_def_ is not None:
             namespacedef_ = imported_ns_def_
@@ -8256,7 +8256,7 @@ class PaymentInstructionInformation3(GeneratedsSuper):
             outfile.write('/>%s' % (eol_, ))
     def exportAttributes(self, outfile, level, already_processed, namespaceprefix_='', name_='PaymentInstructionInformation3'):
         pass
-    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='PaymentInstructionInformation3', fromsubclass_=False, pretty_print=True):
+    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='PaymentInstructionInformation3', fromsubclass_=False, pretty_print=True):
         if pretty_print:
             eol_ = '\n'
         else:
@@ -8519,7 +8519,7 @@ class PaymentTypeInformation19(GeneratedsSuper):
             return True
         else:
             return False
-    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='PaymentTypeInformation19', pretty_print=True):
+    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='PaymentTypeInformation19', pretty_print=True):
         imported_ns_def_ = GenerateDSNamespaceDefs_.get('PaymentTypeInformation19')
         if imported_ns_def_ is not None:
             namespacedef_ = imported_ns_def_
@@ -8544,7 +8544,7 @@ class PaymentTypeInformation19(GeneratedsSuper):
             outfile.write('/>%s' % (eol_, ))
     def exportAttributes(self, outfile, level, already_processed, namespaceprefix_='', name_='PaymentTypeInformation19'):
         pass
-    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='PaymentTypeInformation19', fromsubclass_=False, pretty_print=True):
+    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='PaymentTypeInformation19', fromsubclass_=False, pretty_print=True):
         if pretty_print:
             eol_ = '\n'
         else:
@@ -8656,7 +8656,7 @@ class PersonIdentification5(GeneratedsSuper):
             return True
         else:
             return False
-    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='PersonIdentification5', pretty_print=True):
+    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='PersonIdentification5', pretty_print=True):
         imported_ns_def_ = GenerateDSNamespaceDefs_.get('PersonIdentification5')
         if imported_ns_def_ is not None:
             namespacedef_ = imported_ns_def_
@@ -8681,7 +8681,7 @@ class PersonIdentification5(GeneratedsSuper):
             outfile.write('/>%s' % (eol_, ))
     def exportAttributes(self, outfile, level, already_processed, namespaceprefix_='', name_='PersonIdentification5'):
         pass
-    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='PersonIdentification5', fromsubclass_=False, pretty_print=True):
+    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='PersonIdentification5', fromsubclass_=False, pretty_print=True):
         if pretty_print:
             eol_ = '\n'
         else:
@@ -8800,7 +8800,7 @@ class PersonIdentificationSchemeName1Choice(GeneratedsSuper):
             return True
         else:
             return False
-    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='PersonIdentificationSchemeName1Choice', pretty_print=True):
+    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='PersonIdentificationSchemeName1Choice', pretty_print=True):
         imported_ns_def_ = GenerateDSNamespaceDefs_.get('PersonIdentificationSchemeName1Choice')
         if imported_ns_def_ is not None:
             namespacedef_ = imported_ns_def_
@@ -8825,7 +8825,7 @@ class PersonIdentificationSchemeName1Choice(GeneratedsSuper):
             outfile.write('/>%s' % (eol_, ))
     def exportAttributes(self, outfile, level, already_processed, namespaceprefix_='', name_='PersonIdentificationSchemeName1Choice'):
         pass
-    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='PersonIdentificationSchemeName1Choice', fromsubclass_=False, pretty_print=True):
+    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='PersonIdentificationSchemeName1Choice', fromsubclass_=False, pretty_print=True):
         if pretty_print:
             eol_ = '\n'
         else:
@@ -9070,7 +9070,7 @@ class PostalAddress6(GeneratedsSuper):
             return True
         else:
             return False
-    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='PostalAddress6', pretty_print=True):
+    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='PostalAddress6', pretty_print=True):
         imported_ns_def_ = GenerateDSNamespaceDefs_.get('PostalAddress6')
         if imported_ns_def_ is not None:
             namespacedef_ = imported_ns_def_
@@ -9095,7 +9095,7 @@ class PostalAddress6(GeneratedsSuper):
             outfile.write('/>%s' % (eol_, ))
     def exportAttributes(self, outfile, level, already_processed, namespaceprefix_='', name_='PostalAddress6'):
         pass
-    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='PostalAddress6', fromsubclass_=False, pretty_print=True):
+    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='PostalAddress6', fromsubclass_=False, pretty_print=True):
         if pretty_print:
             eol_ = '\n'
         else:
@@ -9318,7 +9318,7 @@ class Purpose2Choice(GeneratedsSuper):
             return True
         else:
             return False
-    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='Purpose2Choice', pretty_print=True):
+    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='Purpose2Choice', pretty_print=True):
         imported_ns_def_ = GenerateDSNamespaceDefs_.get('Purpose2Choice')
         if imported_ns_def_ is not None:
             namespacedef_ = imported_ns_def_
@@ -9343,7 +9343,7 @@ class Purpose2Choice(GeneratedsSuper):
             outfile.write('/>%s' % (eol_, ))
     def exportAttributes(self, outfile, level, already_processed, namespaceprefix_='', name_='Purpose2Choice'):
         pass
-    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='Purpose2Choice', fromsubclass_=False, pretty_print=True):
+    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='Purpose2Choice', fromsubclass_=False, pretty_print=True):
         if pretty_print:
             eol_ = '\n'
         else:
@@ -9473,7 +9473,7 @@ class ReferredDocumentInformation3(GeneratedsSuper):
             return True
         else:
             return False
-    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='ReferredDocumentInformation3', pretty_print=True):
+    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='ReferredDocumentInformation3', pretty_print=True):
         imported_ns_def_ = GenerateDSNamespaceDefs_.get('ReferredDocumentInformation3')
         if imported_ns_def_ is not None:
             namespacedef_ = imported_ns_def_
@@ -9498,7 +9498,7 @@ class ReferredDocumentInformation3(GeneratedsSuper):
             outfile.write('/>%s' % (eol_, ))
     def exportAttributes(self, outfile, level, already_processed, namespaceprefix_='', name_='ReferredDocumentInformation3'):
         pass
-    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='ReferredDocumentInformation3', fromsubclass_=False, pretty_print=True):
+    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='ReferredDocumentInformation3', fromsubclass_=False, pretty_print=True):
         if pretty_print:
             eol_ = '\n'
         else:
@@ -9630,7 +9630,7 @@ class ReferredDocumentType1Choice(GeneratedsSuper):
             return True
         else:
             return False
-    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='ReferredDocumentType1Choice', pretty_print=True):
+    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='ReferredDocumentType1Choice', pretty_print=True):
         imported_ns_def_ = GenerateDSNamespaceDefs_.get('ReferredDocumentType1Choice')
         if imported_ns_def_ is not None:
             namespacedef_ = imported_ns_def_
@@ -9655,7 +9655,7 @@ class ReferredDocumentType1Choice(GeneratedsSuper):
             outfile.write('/>%s' % (eol_, ))
     def exportAttributes(self, outfile, level, already_processed, namespaceprefix_='', name_='ReferredDocumentType1Choice'):
         pass
-    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='ReferredDocumentType1Choice', fromsubclass_=False, pretty_print=True):
+    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='ReferredDocumentType1Choice', fromsubclass_=False, pretty_print=True):
         if pretty_print:
             eol_ = '\n'
         else:
@@ -9764,7 +9764,7 @@ class ReferredDocumentType2(GeneratedsSuper):
             return True
         else:
             return False
-    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='ReferredDocumentType2', pretty_print=True):
+    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='ReferredDocumentType2', pretty_print=True):
         imported_ns_def_ = GenerateDSNamespaceDefs_.get('ReferredDocumentType2')
         if imported_ns_def_ is not None:
             namespacedef_ = imported_ns_def_
@@ -9789,7 +9789,7 @@ class ReferredDocumentType2(GeneratedsSuper):
             outfile.write('/>%s' % (eol_, ))
     def exportAttributes(self, outfile, level, already_processed, namespaceprefix_='', name_='ReferredDocumentType2'):
         pass
-    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='ReferredDocumentType2', fromsubclass_=False, pretty_print=True):
+    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='ReferredDocumentType2', fromsubclass_=False, pretty_print=True):
         if pretty_print:
             eol_ = '\n'
         else:
@@ -9909,7 +9909,7 @@ class RegulatoryAuthority2(GeneratedsSuper):
             return True
         else:
             return False
-    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='RegulatoryAuthority2', pretty_print=True):
+    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='RegulatoryAuthority2', pretty_print=True):
         imported_ns_def_ = GenerateDSNamespaceDefs_.get('RegulatoryAuthority2')
         if imported_ns_def_ is not None:
             namespacedef_ = imported_ns_def_
@@ -9934,7 +9934,7 @@ class RegulatoryAuthority2(GeneratedsSuper):
             outfile.write('/>%s' % (eol_, ))
     def exportAttributes(self, outfile, level, already_processed, namespaceprefix_='', name_='RegulatoryAuthority2'):
         pass
-    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='RegulatoryAuthority2', fromsubclass_=False, pretty_print=True):
+    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='RegulatoryAuthority2', fromsubclass_=False, pretty_print=True):
         if pretty_print:
             eol_ = '\n'
         else:
@@ -10057,7 +10057,7 @@ class RegulatoryReporting3(GeneratedsSuper):
             return True
         else:
             return False
-    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='RegulatoryReporting3', pretty_print=True):
+    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='RegulatoryReporting3', pretty_print=True):
         imported_ns_def_ = GenerateDSNamespaceDefs_.get('RegulatoryReporting3')
         if imported_ns_def_ is not None:
             namespacedef_ = imported_ns_def_
@@ -10082,7 +10082,7 @@ class RegulatoryReporting3(GeneratedsSuper):
             outfile.write('/>%s' % (eol_, ))
     def exportAttributes(self, outfile, level, already_processed, namespaceprefix_='', name_='RegulatoryReporting3'):
         pass
-    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='RegulatoryReporting3', fromsubclass_=False, pretty_print=True):
+    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='RegulatoryReporting3', fromsubclass_=False, pretty_print=True):
         if pretty_print:
             eol_ = '\n'
         else:
@@ -10214,7 +10214,7 @@ class RemittanceAmount1(GeneratedsSuper):
             return True
         else:
             return False
-    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='RemittanceAmount1', pretty_print=True):
+    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='RemittanceAmount1', pretty_print=True):
         imported_ns_def_ = GenerateDSNamespaceDefs_.get('RemittanceAmount1')
         if imported_ns_def_ is not None:
             namespacedef_ = imported_ns_def_
@@ -10239,7 +10239,7 @@ class RemittanceAmount1(GeneratedsSuper):
             outfile.write('/>%s' % (eol_, ))
     def exportAttributes(self, outfile, level, already_processed, namespaceprefix_='', name_='RemittanceAmount1'):
         pass
-    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='RemittanceAmount1', fromsubclass_=False, pretty_print=True):
+    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='RemittanceAmount1', fromsubclass_=False, pretty_print=True):
         if pretty_print:
             eol_ = '\n'
         else:
@@ -10389,7 +10389,7 @@ class RemittanceInformation5(GeneratedsSuper):
             return True
         else:
             return False
-    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='RemittanceInformation5', pretty_print=True):
+    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='RemittanceInformation5', pretty_print=True):
         imported_ns_def_ = GenerateDSNamespaceDefs_.get('RemittanceInformation5')
         if imported_ns_def_ is not None:
             namespacedef_ = imported_ns_def_
@@ -10414,7 +10414,7 @@ class RemittanceInformation5(GeneratedsSuper):
             outfile.write('/>%s' % (eol_, ))
     def exportAttributes(self, outfile, level, already_processed, namespaceprefix_='', name_='RemittanceInformation5'):
         pass
-    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='RemittanceInformation5', fromsubclass_=False, pretty_print=True):
+    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='RemittanceInformation5', fromsubclass_=False, pretty_print=True):
         if pretty_print:
             eol_ = '\n'
         else:
@@ -10567,7 +10567,7 @@ class RemittanceLocation2(GeneratedsSuper):
             return True
         else:
             return False
-    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='RemittanceLocation2', pretty_print=True):
+    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='RemittanceLocation2', pretty_print=True):
         imported_ns_def_ = GenerateDSNamespaceDefs_.get('RemittanceLocation2')
         if imported_ns_def_ is not None:
             namespacedef_ = imported_ns_def_
@@ -10592,7 +10592,7 @@ class RemittanceLocation2(GeneratedsSuper):
             outfile.write('/>%s' % (eol_, ))
     def exportAttributes(self, outfile, level, already_processed, namespaceprefix_='', name_='RemittanceLocation2'):
         pass
-    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='RemittanceLocation2', fromsubclass_=False, pretty_print=True):
+    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='RemittanceLocation2', fromsubclass_=False, pretty_print=True):
         if pretty_print:
             eol_ = '\n'
         else:
@@ -10739,7 +10739,7 @@ class ServiceLevel8Choice(GeneratedsSuper):
             return True
         else:
             return False
-    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='ServiceLevel8Choice', pretty_print=True):
+    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='ServiceLevel8Choice', pretty_print=True):
         imported_ns_def_ = GenerateDSNamespaceDefs_.get('ServiceLevel8Choice')
         if imported_ns_def_ is not None:
             namespacedef_ = imported_ns_def_
@@ -10764,7 +10764,7 @@ class ServiceLevel8Choice(GeneratedsSuper):
             outfile.write('/>%s' % (eol_, ))
     def exportAttributes(self, outfile, level, already_processed, namespaceprefix_='', name_='ServiceLevel8Choice'):
         pass
-    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='ServiceLevel8Choice', fromsubclass_=False, pretty_print=True):
+    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='ServiceLevel8Choice', fromsubclass_=False, pretty_print=True):
         if pretty_print:
             eol_ = '\n'
         else:
@@ -10957,7 +10957,7 @@ class StructuredRegulatoryReporting3(GeneratedsSuper):
             return True
         else:
             return False
-    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='StructuredRegulatoryReporting3', pretty_print=True):
+    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='StructuredRegulatoryReporting3', pretty_print=True):
         imported_ns_def_ = GenerateDSNamespaceDefs_.get('StructuredRegulatoryReporting3')
         if imported_ns_def_ is not None:
             namespacedef_ = imported_ns_def_
@@ -10982,7 +10982,7 @@ class StructuredRegulatoryReporting3(GeneratedsSuper):
             outfile.write('/>%s' % (eol_, ))
     def exportAttributes(self, outfile, level, already_processed, namespaceprefix_='', name_='StructuredRegulatoryReporting3'):
         pass
-    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='StructuredRegulatoryReporting3', fromsubclass_=False, pretty_print=True):
+    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='StructuredRegulatoryReporting3', fromsubclass_=False, pretty_print=True):
         if pretty_print:
             eol_ = '\n'
         else:
@@ -11179,7 +11179,7 @@ class StructuredRemittanceInformation7(GeneratedsSuper):
             return True
         else:
             return False
-    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='StructuredRemittanceInformation7', pretty_print=True):
+    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='StructuredRemittanceInformation7', pretty_print=True):
         imported_ns_def_ = GenerateDSNamespaceDefs_.get('StructuredRemittanceInformation7')
         if imported_ns_def_ is not None:
             namespacedef_ = imported_ns_def_
@@ -11204,7 +11204,7 @@ class StructuredRemittanceInformation7(GeneratedsSuper):
             outfile.write('/>%s' % (eol_, ))
     def exportAttributes(self, outfile, level, already_processed, namespaceprefix_='', name_='StructuredRemittanceInformation7'):
         pass
-    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='StructuredRemittanceInformation7', fromsubclass_=False, pretty_print=True):
+    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='StructuredRemittanceInformation7', fromsubclass_=False, pretty_print=True):
         if pretty_print:
             eol_ = '\n'
         else:
@@ -11360,7 +11360,7 @@ class TaxAmount1(GeneratedsSuper):
             return True
         else:
             return False
-    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='TaxAmount1', pretty_print=True):
+    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='TaxAmount1', pretty_print=True):
         imported_ns_def_ = GenerateDSNamespaceDefs_.get('TaxAmount1')
         if imported_ns_def_ is not None:
             namespacedef_ = imported_ns_def_
@@ -11385,7 +11385,7 @@ class TaxAmount1(GeneratedsSuper):
             outfile.write('/>%s' % (eol_, ))
     def exportAttributes(self, outfile, level, already_processed, namespaceprefix_='', name_='TaxAmount1'):
         pass
-    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='TaxAmount1', fromsubclass_=False, pretty_print=True):
+    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='TaxAmount1', fromsubclass_=False, pretty_print=True):
         if pretty_print:
             eol_ = '\n'
         else:
@@ -11524,7 +11524,7 @@ class TaxAuthorisation1(GeneratedsSuper):
             return True
         else:
             return False
-    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='TaxAuthorisation1', pretty_print=True):
+    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='TaxAuthorisation1', pretty_print=True):
         imported_ns_def_ = GenerateDSNamespaceDefs_.get('TaxAuthorisation1')
         if imported_ns_def_ is not None:
             namespacedef_ = imported_ns_def_
@@ -11549,7 +11549,7 @@ class TaxAuthorisation1(GeneratedsSuper):
             outfile.write('/>%s' % (eol_, ))
     def exportAttributes(self, outfile, level, already_processed, namespaceprefix_='', name_='TaxAuthorisation1'):
         pass
-    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='TaxAuthorisation1', fromsubclass_=False, pretty_print=True):
+    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='TaxAuthorisation1', fromsubclass_=False, pretty_print=True):
         if pretty_print:
             eol_ = '\n'
         else:
@@ -11770,7 +11770,7 @@ class TaxInformation3(GeneratedsSuper):
             return True
         else:
             return False
-    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='TaxInformation3', pretty_print=True):
+    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='TaxInformation3', pretty_print=True):
         imported_ns_def_ = GenerateDSNamespaceDefs_.get('TaxInformation3')
         if imported_ns_def_ is not None:
             namespacedef_ = imported_ns_def_
@@ -11795,7 +11795,7 @@ class TaxInformation3(GeneratedsSuper):
             outfile.write('/>%s' % (eol_, ))
     def exportAttributes(self, outfile, level, already_processed, namespaceprefix_='', name_='TaxInformation3'):
         pass
-    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='TaxInformation3', fromsubclass_=False, pretty_print=True):
+    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='TaxInformation3', fromsubclass_=False, pretty_print=True):
         if pretty_print:
             eol_ = '\n'
         else:
@@ -11988,7 +11988,7 @@ class TaxParty1(GeneratedsSuper):
             return True
         else:
             return False
-    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='TaxParty1', pretty_print=True):
+    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='TaxParty1', pretty_print=True):
         imported_ns_def_ = GenerateDSNamespaceDefs_.get('TaxParty1')
         if imported_ns_def_ is not None:
             namespacedef_ = imported_ns_def_
@@ -12013,7 +12013,7 @@ class TaxParty1(GeneratedsSuper):
             outfile.write('/>%s' % (eol_, ))
     def exportAttributes(self, outfile, level, already_processed, namespaceprefix_='', name_='TaxParty1'):
         pass
-    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='TaxParty1', fromsubclass_=False, pretty_print=True):
+    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='TaxParty1', fromsubclass_=False, pretty_print=True):
         if pretty_print:
             eol_ = '\n'
         else:
@@ -12150,7 +12150,7 @@ class TaxParty2(GeneratedsSuper):
             return True
         else:
             return False
-    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='TaxParty2', pretty_print=True):
+    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='TaxParty2', pretty_print=True):
         imported_ns_def_ = GenerateDSNamespaceDefs_.get('TaxParty2')
         if imported_ns_def_ is not None:
             namespacedef_ = imported_ns_def_
@@ -12175,7 +12175,7 @@ class TaxParty2(GeneratedsSuper):
             outfile.write('/>%s' % (eol_, ))
     def exportAttributes(self, outfile, level, already_processed, namespaceprefix_='', name_='TaxParty2'):
         pass
-    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='TaxParty2', fromsubclass_=False, pretty_print=True):
+    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='TaxParty2', fromsubclass_=False, pretty_print=True):
         if pretty_print:
             eol_ = '\n'
         else:
@@ -12323,7 +12323,7 @@ class TaxPeriod1(GeneratedsSuper):
             return True
         else:
             return False
-    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='TaxPeriod1', pretty_print=True):
+    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='TaxPeriod1', pretty_print=True):
         imported_ns_def_ = GenerateDSNamespaceDefs_.get('TaxPeriod1')
         if imported_ns_def_ is not None:
             namespacedef_ = imported_ns_def_
@@ -12348,7 +12348,7 @@ class TaxPeriod1(GeneratedsSuper):
             outfile.write('/>%s' % (eol_, ))
     def exportAttributes(self, outfile, level, already_processed, namespaceprefix_='', name_='TaxPeriod1'):
         pass
-    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='TaxPeriod1', fromsubclass_=False, pretty_print=True):
+    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='TaxPeriod1', fromsubclass_=False, pretty_print=True):
         if pretty_print:
             eol_ = '\n'
         else:
@@ -12536,7 +12536,7 @@ class TaxRecord1(GeneratedsSuper):
             return True
         else:
             return False
-    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='TaxRecord1', pretty_print=True):
+    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='TaxRecord1', pretty_print=True):
         imported_ns_def_ = GenerateDSNamespaceDefs_.get('TaxRecord1')
         if imported_ns_def_ is not None:
             namespacedef_ = imported_ns_def_
@@ -12561,7 +12561,7 @@ class TaxRecord1(GeneratedsSuper):
             outfile.write('/>%s' % (eol_, ))
     def exportAttributes(self, outfile, level, already_processed, namespaceprefix_='', name_='TaxRecord1'):
         pass
-    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='TaxRecord1', fromsubclass_=False, pretty_print=True):
+    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='TaxRecord1', fromsubclass_=False, pretty_print=True):
         if pretty_print:
             eol_ = '\n'
         else:
@@ -12728,7 +12728,7 @@ class TaxRecordDetails1(GeneratedsSuper):
             return True
         else:
             return False
-    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='TaxRecordDetails1', pretty_print=True):
+    def export(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='TaxRecordDetails1', pretty_print=True):
         imported_ns_def_ = GenerateDSNamespaceDefs_.get('TaxRecordDetails1')
         if imported_ns_def_ is not None:
             namespacedef_ = imported_ns_def_
@@ -12753,7 +12753,7 @@ class TaxRecordDetails1(GeneratedsSuper):
             outfile.write('/>%s' % (eol_, ))
     def exportAttributes(self, outfile, level, already_processed, namespaceprefix_='', name_='TaxRecordDetails1'):
         pass
-    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns:None="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='TaxRecordDetails1', fromsubclass_=False, pretty_print=True):
+    def exportChildren(self, outfile, level, namespaceprefix_='', namespacedef_=' xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" ', name_='TaxRecordDetails1', fromsubclass_=False, pretty_print=True):
         if pretty_print:
             eol_ = '\n'
         else:
